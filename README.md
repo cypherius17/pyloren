@@ -24,6 +24,22 @@ pyloren --help
 pyloren forge <package_name> <directory>
 ```
 
+## Sample generated package layout
+```sh
+├── bin
+├── data
+├── docs
+├── LICENSE
+├── MANIFEST.in
+├── package_name
+│   ├── __init__.py
+│   └── __main__.py
+├── README.rst
+├── requirements.txt
+├── setup.py-tpl
+└── tests
+```
+
 ## Author
 
  **Thai Nguyen-Danh**
